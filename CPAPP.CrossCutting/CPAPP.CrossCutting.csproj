@@ -10,4 +10,8 @@
       <ProjectReference Include="..\CPAPP.Infastructure\CPAPP.Infastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="IoC" />
+    </ItemGroup>
+
 </Project>
