@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CPAPP.Application/1.0.0": {
+        "dependencies": {
+          "CPAPP.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CPAPP.Application.dll": {}
+        }
+      },
+      "CPAPP.Domain/1.0.0": {
+        "runtime": {
+          "CPAPP.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CPAPP.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CPAPP.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
