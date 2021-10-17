@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CPAPP.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace CPAPP.Infastructure.Context
 {
@@ -10,6 +11,14 @@ namespace CPAPP.Infastructure.Context
 
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
+        }
+        
+        public DbSet<Usuario> Usuarios { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+            builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
         }
     }
 }

@@ -1528,7 +1528,7 @@
           "bin/placeholder/CPAPP.Domain.dll": {}
         }
       },
-      "CPAPP.Infastructure/1.0.0": {
+      "CPAPP.Infrastucture/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -1537,10 +1537,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
         },
         "compile": {
-          "bin/placeholder/CPAPP.Infastructure.dll": {}
+          "bin/placeholder/CPAPP.Infrastucture.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CPAPP.Infastructure.dll": {}
+          "bin/placeholder/CPAPP.Infrastucture.dll": {}
         }
       }
     }
@@ -5818,10 +5818,10 @@
       "path": "../CPAPP.Domain/CPAPP.Domain.csproj",
       "msbuildProject": "../CPAPP.Domain/CPAPP.Domain.csproj"
     },
-    "CPAPP.Infastructure/1.0.0": {
+    "CPAPP.Infrastucture/1.0.0": {
       "type": "project",
-      "path": "../CPAPP.Infastructure/CPAPP.Infastructure.csproj",
-      "msbuildProject": "../CPAPP.Infastructure/CPAPP.Infastructure.csproj"
+      "path": "../CPAPP.Infrastucture/CPAPP.Infrastucture.csproj",
+      "msbuildProject": "../CPAPP.Infrastucture/CPAPP.Infrastucture.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5829,7 +5829,7 @@
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "CPAPP.Application >= 1.0.0",
       "CPAPP.Domain >= 1.0.0",
-      "CPAPP.Infastructure >= 1.0.0",
+      "CPAPP.Infrastucture >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0-rc.2.21480.5"
     ]
   },
@@ -5864,8 +5864,8 @@
             "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
               "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
             },
-            "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj": {
-              "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj"
+            "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
+              "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj"
             }
           }
         }
