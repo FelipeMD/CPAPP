@@ -9,7 +9,6 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Appl
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.AssemblyInfoInputs.cache
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.AssemblyInfo.cs
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.CoreCompileInputs.cache
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.CopyComplete
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\ref\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.pdb

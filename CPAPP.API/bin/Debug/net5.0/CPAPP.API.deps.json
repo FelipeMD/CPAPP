@@ -1379,6 +1379,7 @@
       },
       "CPAPP.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "CPAPP.Domain": "1.0.0"
         },
         "runtime": {
@@ -1390,6 +1391,7 @@
       },
       "CPAPP.CrossCutting/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "CPAPP.Application": "1.0.0",
           "CPAPP.Domain": "1.0.0",

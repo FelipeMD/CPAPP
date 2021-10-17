@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "v175od/o049/ZUOqto59pRarjFcLU7TAPkpfvFUxubbMQHte/bg0F6rg4v9IC3OdvRDLgAbC/Q2ciNEU4Q20pQ==",
+  "dgSpecHash": "hcZsgbvChsBXbO2l9mG2pS0+9fBk3ETvauaApiZmu6rwI+9qNApun9azddrj/zX52JGPHBjhdkqTw3qJx8cT1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fmcab\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\fmcab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\fmcab\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

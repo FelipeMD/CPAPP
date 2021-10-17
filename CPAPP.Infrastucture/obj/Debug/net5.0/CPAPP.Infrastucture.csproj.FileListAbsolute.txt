@@ -9,7 +9,9 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.In
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.AssemblyInfoInputs.cache
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.AssemblyInfo.cs
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.csproj.CoreCompileInputs.cache
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.csproj.CopyComplete
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\ref\CPAPP.Infrastucture.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.pdb
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\bin\Debug\net5.0\CPAPP.Infrastucture.runtimeconfig.json
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\bin\Debug\net5.0\CPAPP.Infrastucture.runtimeconfig.dev.json
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.genruntimeconfig.cache

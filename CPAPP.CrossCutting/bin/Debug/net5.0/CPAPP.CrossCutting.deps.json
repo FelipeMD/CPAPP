@@ -8,11 +8,13 @@
     ".NETCoreApp,Version=v5.0": {
       "CPAPP.CrossCutting/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "CPAPP.Application": "1.0.0",
           "CPAPP.Domain": "1.0.0",
           "CPAPP.Infrastucture": "1.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5",
+          "CPAPP.Infastructure": "1.0.0.0"
         },
         "runtime": {
           "CPAPP.CrossCutting.dll": {}
@@ -1062,6 +1064,7 @@
       },
       "CPAPP.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "10.1.1",
           "CPAPP.Domain": "1.0.0"
         },
         "runtime": {
@@ -1081,6 +1084,14 @@
         },
         "runtime": {
           "CPAPP.Infrastucture.dll": {}
+        }
+      },
+      "CPAPP.Infastructure/1.0.0.0": {
+        "runtime": {
+          "CPAPP.Infastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -1775,6 +1786,11 @@
     },
     "CPAPP.Infrastucture/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CPAPP.Infastructure/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
