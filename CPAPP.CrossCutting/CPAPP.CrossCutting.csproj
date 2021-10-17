@@ -7,7 +7,7 @@
     <ItemGroup>
       <ProjectReference Include="..\CPAPP.Application\CPAPP.Application.csproj" />
       <ProjectReference Include="..\CPAPP.Domain\CPAPP.Domain.csproj" />
-      <ProjectReference Include="..\CPAPP.Infastructure\CPAPP.Infastructure.csproj" />
+      <ProjectReference Include="..\CPAPP.Infrastucture\CPAPP.Infrastucture.csproj" />
     </ItemGroup>
 
     <ItemGroup>

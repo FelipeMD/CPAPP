@@ -1393,7 +1393,7 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "CPAPP.Application": "1.0.0",
           "CPAPP.Domain": "1.0.0",
-          "CPAPP.Infastructure": "1.0.0",
+          "CPAPP.Infrastucture": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0-rc.2.21480.5"
         },
         "runtime": {
@@ -1411,17 +1411,17 @@
           "CPAPP.Domain.dll": {}
         }
       },
-      "CPAPP.Infastructure/1.0.0": {
+      "CPAPP.Infrastucture/1.0.0": {
         "dependencies": {
           "CPAPP.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
         },
         "runtime": {
-          "CPAPP.Infastructure.dll": {}
+          "CPAPP.Infrastucture.dll": {}
         },
         "compile": {
-          "CPAPP.Infastructure.dll": {}
+          "CPAPP.Infrastucture.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3841,7 +3841,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "CPAPP.Infastructure/1.0.0": {
+    "CPAPP.Infrastucture/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

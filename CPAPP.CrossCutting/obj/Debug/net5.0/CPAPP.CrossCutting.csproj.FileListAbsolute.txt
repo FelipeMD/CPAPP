@@ -4,10 +4,8 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\ref\CPAPP
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.CrossCutting.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Domain.dll
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Infastructure.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Application.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Domain.pdb
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Infastructure.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.csproj.AssemblyReference.cache
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.AssemblyInfoInputs.cache
@@ -17,3 +15,5 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.Cro
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\ref\CPAPP.CrossCutting.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.pdb
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Infrastucture.dll
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Infrastucture.pdb

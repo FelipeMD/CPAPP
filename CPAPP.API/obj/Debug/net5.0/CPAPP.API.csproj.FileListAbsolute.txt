@@ -47,11 +47,9 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\runtimes\win\lib\n
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.CrossCutting.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Domain.dll
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Infastructure.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.CrossCutting.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Application.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Domain.pdb
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Infastructure.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.csproj.AssemblyReference.cache
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.AssemblyInfoInputs.cache
@@ -68,3 +66,5 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\ref\CPAPP.API.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.genruntimeconfig.cache
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Infrastucture.dll
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\CPAPP.Infrastucture.pdb

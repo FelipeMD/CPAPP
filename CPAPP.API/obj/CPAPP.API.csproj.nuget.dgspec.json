@@ -14,14 +14,12 @@
         "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,14 +79,12 @@
         "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -139,14 +135,12 @@
         "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -159,8 +153,8 @@
               "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
                 "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
               },
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj"
+              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj"
               }
             }
           }
@@ -213,14 +207,12 @@
         "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -257,24 +249,22 @@
         }
       }
     },
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj": {
+    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj",
-        "projectName": "CPAPP.Infastructure",
-        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\CPAPP.Infastructure.csproj",
+        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
+        "projectName": "CPAPP.Infrastucture",
+        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
         "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infastructure\\obj\\",
+        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -297,14 +287,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "FluentMigrator": {
-              "target": "Package",
-              "version": "[3.3.1, )"
-            },
-            "FluentMigrator.Extensions.SqlServer": {
-              "target": "Package",
-              "version": "[3.3.1, )"
-            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.11, )"
