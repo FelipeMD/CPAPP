@@ -17,7 +17,11 @@ namespace CPAPP.Infrastucture.EntitiesConfiguration
                 .HasConversion(c => c.ToString(), v => new Cpf())
                 .HasColumnName("Cpf")
                 .IsRequired();
-            builder.Property(u => u.Nascimento).HasColumnName("DataNascimento").IsRequired();
+            builder.Property(u => u.Nascimento).HasColumnName("DTNascimento").IsRequired();
+            builder.Property(u => u.Sexo).HasColumnName("Sexo").IsRequired();
+
+            builder.HasOne(e => e.Endereco)
+                .WithOne(u => u.Usuario);
         }
     }
 }

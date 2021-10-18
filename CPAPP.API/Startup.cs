@@ -4,11 +4,14 @@ using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 using CPAPP.CrossCutting.IoC;
+using CPAPP.Infrastucture.Context;
 using FluentMigrator.Runner;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -33,10 +36,12 @@ namespace CPAPP.API
             
             services.AddControllers();
 
+            string assemblyName = "CPAPP.Infrastucture.dll";
+
             services.AddFluentMigratorCore()
                 .ConfigureRunner(config => config.AddSqlServer()
                     .WithGlobalConnectionString("Persist Security Info = False; Integrated Security = true; Initial Catalog = compraapp; server = .\\SQLEXPRESS")
-                    .ScanIn(Assembly.GetExecutingAssembly()).For.All())
+                    .ScanIn(Assembly.LoadFrom("./bin/Debug/net5.0/" + assemblyName )).For.All())
                 .AddLogging(config => config.AddFluentMigratorConsole());
             
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "CPAPP.API", Version = "v1"}); });
@@ -62,7 +67,7 @@ namespace CPAPP.API
 
             using var scope = app.ApplicationServices.CreateScope();
             var migrator = scope.ServiceProvider.GetService<IMigrationRunner>();
-            migrator.ListMigrations();
+            if (migrator != null) migrator.MigrateUp();
         }
     }
 }

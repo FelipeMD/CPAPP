@@ -83,3 +83,6 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\FluentMigrator.Run
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\FluentMigrator.Runner.SqlServerCe.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\System.Data.SqlServerCe.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\de-DE\FluentMigrator.Abstractions.resources.dll
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\dotnet-ef.dll
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.csproj.CopyComplete
