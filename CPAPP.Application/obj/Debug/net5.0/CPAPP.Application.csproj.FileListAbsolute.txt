@@ -12,3 +12,4 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Appl
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\ref\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.pdb
+C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.CopyComplete

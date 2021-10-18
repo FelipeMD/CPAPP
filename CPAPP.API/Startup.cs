@@ -1,8 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using CPAPP.CrossCutting.IoC;
+using FluentMigrator.Runner;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,6 +32,13 @@ namespace CPAPP.API
             services.AddInfrastructure(Configuration);
             
             services.AddControllers();
+
+            services.AddFluentMigratorCore()
+                .ConfigureRunner(config => config.AddSqlServer()
+                    .WithGlobalConnectionString("Persist Security Info = False; Integrated Security = true; Initial Catalog = compraapp; server = .\\SQLEXPRESS")
+                    .ScanIn(Assembly.GetExecutingAssembly()).For.All())
+                .AddLogging(config => config.AddFluentMigratorConsole());
+            
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "CPAPP.API", Version = "v1"}); });
         }
 
@@ -50,6 +59,10 @@ namespace CPAPP.API
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+
+            using var scope = app.ApplicationServices.CreateScope();
+            var migrator = scope.ServiceProvider.GetService<IMigrationRunner>();
+            migrator.ListMigrations();
         }
     }
 }
