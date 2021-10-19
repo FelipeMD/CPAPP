@@ -1,5 +1,4 @@
-﻿using AutoMapper.Configuration;
-using CPAPP.Infastructure.Context;
+﻿using CPAPP.Infrastucture.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;

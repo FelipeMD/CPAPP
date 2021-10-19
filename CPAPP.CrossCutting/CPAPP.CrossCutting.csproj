@@ -7,12 +7,19 @@
     <ItemGroup>
       <ProjectReference Include="..\CPAPP.Application\CPAPP.Application.csproj" />
       <ProjectReference Include="..\CPAPP.Domain\CPAPP.Domain.csproj" />
-      <ProjectReference Include="..\CPAPP.Infastructure\CPAPP.Infastructure.csproj" />
+      <ProjectReference Include="..\CPAPP.Infrastucture\CPAPP.Infrastucture.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="10.1.1" />
       <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0-rc.2.21480.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="CPAPP.Infastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\CPAPP.Infastructure\bin\Debug\net5.0\CPAPP.Infastructure.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
