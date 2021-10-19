@@ -14,9 +14,9 @@ namespace CPAPP.Infrastucture.Migrations
                 .WithColumn("DTNascimento").AsDateTime().NotNullable()
                 .WithColumn("IDEndereco").AsInt32().NotNullable();
 
-            Create.ForeignKey("IDEndereco")
-                .FromTable("Endereco").ForeignColumn("IDEndereco")
-                .ToTable("Usuario").PrimaryColumn("IDEndereco");
+            // Create.ForeignKey("IDEndereco")
+            //     .FromTable("Endereco").ForeignColumn("IDEndereco")
+            //     .ToTable("Usuario").PrimaryColumn("IDEndereco");
         }
 
         public override void Down()

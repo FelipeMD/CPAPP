@@ -15,4 +15,3 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.In
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\bin\Debug\net5.0\CPAPP.Infrastucture.runtimeconfig.json
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\bin\Debug\net5.0\CPAPP.Infrastucture.runtimeconfig.dev.json
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.genruntimeconfig.cache
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.csproj.CopyComplete
