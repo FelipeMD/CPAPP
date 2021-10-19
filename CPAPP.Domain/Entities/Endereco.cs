@@ -1,4 +1,6 @@
-﻿namespace CPAPP.Domain.Entities
+﻿using System.Collections.Generic;
+
+namespace CPAPP.Domain.Entities
 {
     public class Endereco : Entity
     {
@@ -9,16 +11,14 @@
         public string Complemento { get; protected set; }
         public string Bairro { get; protected set; }
         public string Municipio { get; protected set; }
-        public Usuario Usuario { get; protected set; }
-        public int UsarioId { get; protected set; }
+        public List<Usuario> Usuarios { get; protected set; }
 
         public Endereco(int id, string uf, string cep,
             string logradouro,
             string numero,
             string complemento,
             string bairro,
-            string municipio,
-            Usuario usuario)
+            string municipio)
         {
             Id = id;
             Uf = uf;
@@ -28,7 +28,7 @@
             Complemento = complemento;
             Bairro = bairro;
             Municipio = municipio;
-            Usuario = usuario;
+            Usuarios = new List<Usuario>();
         }
     }
 }

@@ -8,19 +8,14 @@ namespace CPAPP.Infrastucture.Migrations
         public override void Up()
         {
             Create.Table("Endereco")
-                .WithColumn("IdEndereco").AsInt32().NotNullable().Identity().PrimaryKey()
+                .WithColumn("IDEndereco").AsInt32().NotNullable().Identity().PrimaryKey()
                 .WithColumn("Uf").AsString().NotNullable()
                 .WithColumn("Cep").AsString().NotNullable()
                 .WithColumn("Logradouro").AsString().NotNullable()
                 .WithColumn("Numero").AsString().NotNullable()
                 .WithColumn("Complemento").AsString().NotNullable()
                 .WithColumn("Bairro").AsString().NotNullable()
-                .WithColumn("Municipio").AsString().NotNullable()
-                .WithColumn("IDUsuario").AsString().NotNullable();
-            
-            // Create.ForeignKey("FK_Usuario_Endereco")
-            //     .FromTable("Endereco").ForeignColumn("IDUsuario")
-            //     .ToTable("Usuario").PrimaryColumn("IdUsuario");
+                .WithColumn("Municipio").AsString().NotNullable();
         }
 
         public override void Down()
