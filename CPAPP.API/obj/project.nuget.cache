@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OOWJnFeinb10onjKHjkvOKOzj8wBMl7zXpxS5/fmPTL+N5Kq9B8w/qPqwwQQoddTpWnPj3vKPt0WbvG/u1EUhg==",
+  "dgSpecHash": "WrqErnZZAg45Vnkxgbs56nu+ghzJwLUFY0+1jb656kYRRBcmBfFi36AWKAJimxLdLvbEBp6G39Wm8z4M3pejaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
   "expectedPackageFiles": [
@@ -59,8 +59,10 @@
     "C:\\Users\\fmcab\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\fmcab\\.nuget\\packages\\mysqlconnector\\1.3.13\\mysqlconnector.1.3.13.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\netstandard.library\\2.0.1\\netstandard.library.2.0.1.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\fmcab\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\5.0.2\\pomelo.entityframeworkcore.mysql.5.0.2.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",

@@ -16,4 +16,3 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\ref\CPAPP
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Infrastucture.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\bin\Debug\net5.0\CPAPP.Infrastucture.pdb
-C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.CrossCutting\obj\Debug\net5.0\CPAPP.CrossCutting.csproj.CopyComplete

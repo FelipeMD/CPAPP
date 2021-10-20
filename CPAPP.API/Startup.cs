@@ -39,8 +39,8 @@ namespace CPAPP.API
             string assemblyName = "CPAPP.Infrastucture.dll";
 
             services.AddFluentMigratorCore()
-                .ConfigureRunner(config => config.AddSqlServer()
-                    .WithGlobalConnectionString("Persist Security Info = False; Integrated Security = true; Initial Catalog = compraapp; server = .\\SQLEXPRESS")
+                .ConfigureRunner(config => config.AddMySql5()
+                    .WithGlobalConnectionString("Persist Security Info = False; Initial Catalog = compraapp; server = .\\MYSQL")
                     .ScanIn(Assembly.LoadFrom("./bin/Debug/net5.0/" + assemblyName )).For.All())
                 .AddLogging(config => config.AddFluentMigratorConsole());
             

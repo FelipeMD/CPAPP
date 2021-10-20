@@ -17,15 +17,15 @@ namespace CPAPP.Domain.Entities
 
         private List<string> _tamanhoCampos = new List<string>();
         
-        public Usuario(int id, string nome, Cpf cpf, DateTime nascimento, string sexo, Endereco endereco)
-        {
-            DomainExceptionValidation.When(id < 0, "Id inválido.");
-            Nome = nome;
-            Cpf = cpf;
-            Nascimento = nascimento;
-            Sexo = sexo;
-            Endereco = endereco;
-        }
+        // public Usuario(int id, string nome, Cpf cpf, DateTime nascimento, string sexo, Endereco endereco)
+        // {
+        //     DomainExceptionValidation.When(id < 0, "Id inválido.");
+        //     Nome = nome;
+        //     Cpf = cpf;
+        //     Nascimento = nascimento;
+        //     Sexo = sexo;
+        //     Endereco = endereco;
+        // }
 
         private void Validacao()
         {
