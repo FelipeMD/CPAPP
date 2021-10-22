@@ -8,7 +8,7 @@ namespace CPAPP.Infrastucture.Migrations
         public override void Up()
         {
             Create.Table("Endereco")
-                .WithColumn("IDEndereco").AsInt32().NotNullable().Identity().PrimaryKey()
+                .WithColumn("ID").AsInt32().NotNullable().PrimaryKey().Identity()
                 .WithColumn("Uf").AsString().NotNullable()
                 .WithColumn("Cep").AsString().NotNullable()
                 .WithColumn("Logradouro").AsString().NotNullable()

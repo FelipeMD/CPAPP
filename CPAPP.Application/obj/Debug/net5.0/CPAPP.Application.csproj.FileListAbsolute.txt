@@ -13,3 +13,17 @@ C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Appl
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\ref\CPAPP.Application.dll
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.pdb
 C:\Users\fmcab\RiderProjects\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.CopyComplete
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\bin\Debug\net5.0\CPAPP.Application.deps.json
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\bin\Debug\net5.0\CPAPP.Application.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\bin\Debug\net5.0\ref\CPAPP.Application.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\bin\Debug\net5.0\CPAPP.Application.pdb
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\bin\Debug\net5.0\CPAPP.Domain.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\bin\Debug\net5.0\CPAPP.Domain.pdb
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.AssemblyReference.cache
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.AssemblyInfoInputs.cache
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.AssemblyInfo.cs
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.CoreCompileInputs.cache
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\ref\CPAPP.Application.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.pdb

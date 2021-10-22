@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WrqErnZZAg45Vnkxgbs56nu+ghzJwLUFY0+1jb656kYRRBcmBfFi36AWKAJimxLdLvbEBp6G39Wm8z4M3pejaQ==",
+  "dgSpecHash": "sg4Df5TuOKGc6oEv8nhOzsN8DIaUbOATT63JSlsSUviDFLTTwANxUPBtZoNlBJe402AiSLln/EmwvOs7Sobm5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
+  "projectFilePath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fmcab\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.RegularExpressions;
 using CPAPP.Domain.Validation;
 using CPAPP.Domain.ValueObjetcs;
@@ -9,6 +10,7 @@ namespace CPAPP.Domain.Entities
     public class Usuario : Entity 
     {
         public string Nome { get; protected set; }
+        [NotMapped]
         public Cpf Cpf { get; protected set; }
         public DateTime Nascimento { get; protected set; }
         public string Sexo { get; protected set; }

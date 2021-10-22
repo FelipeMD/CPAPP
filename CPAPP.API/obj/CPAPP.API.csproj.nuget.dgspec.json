@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj": {}
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
         "projectName": "CPAPP.API",
-        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
         "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\obj\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj"
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj"
               }
             }
           }
@@ -65,18 +65,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
         "projectName": "CPAPP.Application",
-        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
         "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\obj\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -91,8 +91,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
               }
             }
           }
@@ -127,18 +127,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj",
         "projectName": "CPAPP.CrossCutting",
-        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -153,14 +153,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj"
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj"
               },
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
               },
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj"
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj"
               }
             }
           }
@@ -203,18 +203,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj",
         "projectName": "CPAPP.Domain",
-        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj",
         "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\obj\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -255,18 +255,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
         "projectName": "CPAPP.Infrastucture",
-        "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
         "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\obj\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -281,8 +281,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
-                "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
               }
             }
           }
@@ -353,7 +353,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

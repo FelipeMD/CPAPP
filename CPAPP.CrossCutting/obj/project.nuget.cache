@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "esHSzYWK2DwOTNt+TvPGGGoSPymJ8254Y62ncogewA8pKoucD8i3Q7Vkp+1ZGZmrEjOC3dmVnN/7lIgab0xvMQ==",
+  "dgSpecHash": "6yjnQjX/+mSuArxOYR8IkS+Coq4Q1RQxjP2owk2B79iPUfBlotiP1cLdwP2P3O8yIvrrFUgLfI86m0eOG0FAhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fmcab\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

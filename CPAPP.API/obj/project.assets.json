@@ -6664,11 +6664,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
+      "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
       "projectName": "CPAPP.API",
-      "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
+      "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\CPAPP.API.csproj",
       "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.API\\obj\\",
+      "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6683,8 +6683,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj"
+            "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj": {
+              "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.CrossCutting\\CPAPP.CrossCutting.csproj"
             }
           }
         }
@@ -6722,7 +6722,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

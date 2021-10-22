@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XPAfPMbzoTjjlf8PynCRFxb45NvKLnEZr2yToLNiEX9LclaUtpJcHiqRrk84LFGhbV5sArXt7deeSdqAw6zjHA==",
+  "dgSpecHash": "+5Va9mS7Ja1Uru5QUHZsQ3I+Kl0uIuk35WAdt7vviYAdIu2JiNAkNtghyfvUTbwcg7G73Gk/mp+TmrmuNHLPTg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
+  "projectFilePath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Infrastucture\\CPAPP.Infrastucture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fmcab\\.nuget\\packages\\fluentmigrator\\3.3.1\\fluentmigrator.3.3.1.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\fluentmigrator.abstractions\\3.3.1\\fluentmigrator.abstractions.3.3.1.nupkg.sha512",

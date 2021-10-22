@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hcZsgbvChsBXbO2l9mG2pS0+9fBk3ETvauaApiZmu6rwI+9qNApun9azddrj/zX52JGPHBjhdkqTw3qJx8cT1Q==",
+  "dgSpecHash": "KUftx1bYfwDKNIZhZwq8WtniNrKoWExramgKMbLB3gjGJW1s2k/gvkjA6gjdV1IX7EvB0y0ioW69tnMWhjrUGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fmcab\\RiderProjects\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
+  "projectFilePath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fmcab\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\fmcab\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -40,7 +40,7 @@ namespace CPAPP.API
 
             services.AddFluentMigratorCore()
                 .ConfigureRunner(config => config.AddMySql5()
-                    .WithGlobalConnectionString("Persist Security Info = False; Initial Catalog = compraapp; server = .\\MYSQL")
+                    .WithGlobalConnectionString("Server=localhost;Database=compraapp;Uid=root;Pwd=admin123;Allow User Variables=True;SslMode=none;")
                     .ScanIn(Assembly.LoadFrom("./bin/Debug/net5.0/" + assemblyName )).For.All())
                 .AddLogging(config => config.AddFluentMigratorConsole());
             
