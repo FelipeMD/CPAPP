@@ -177,3 +177,15 @@ C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\ref\CPAPP.API.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.pdb
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.genruntimeconfig.cache
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.csproj.CopyComplete
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\MySql.Data.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\MySql.Data.EntityFrameworkCore.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Renci.SshNet.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll

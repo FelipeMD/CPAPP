@@ -27,3 +27,4 @@ C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Applic
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\ref\CPAPP.Application.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.pdb
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Application\obj\Debug\net5.0\CPAPP.Application.csproj.CopyComplete
