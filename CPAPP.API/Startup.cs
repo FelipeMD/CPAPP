@@ -34,7 +34,7 @@ namespace CPAPP.API
         {
             services.AddInfrastructure(Configuration);
             
-            services.AddControllers();
+            services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false);
 
             string assemblyName = "CPAPP.Infrastucture.dll";
 

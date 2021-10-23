@@ -14,7 +14,7 @@ namespace CPAPP.Infrastucture.Context
         }
         
         public DbSet<Produto> Produtos { get; set; }
-        public DbSet<Endereco> Enderecos { get; set; }
+        // public DbSet<Endereco> Enderecos { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
 
         // protected override void OnModelCreating(ModelBuilder builder)

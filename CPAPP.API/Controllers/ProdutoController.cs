@@ -17,19 +17,19 @@ namespace CPAPP.API.Controllers
             _produtoService = produtoService;
         }
         
-        // [HttpPost ("Post")]
-        // public async Task<ActionResult> Post([FromBody] ProdutoDTO produtoDto)
-        // {
-        //     if (!ModelState.IsValid)
-        //     {
-        //         return BadRequest(ModelState);
-        //     }
-        //
-        //     await _produtoService.CreateAsync(produtoDto);
-        //
-        //     return new CreatedAtRouteResult("GetProduto",
-        //         new { id = produtoDto.Id }, produtoDto);
-        // }
+        [HttpPost ("Post")]
+        public async Task<ActionResult> Post([FromBody] ProdutoDTO produtoDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+        
+            await _produtoService.CreateAsync(produtoDto);
+        
+            return new CreatedAtRouteResult("GetProduto",
+                new { id = produtoDto.Id }, produtoDto);
+        }
         
         [HttpGet("Get")]
         public async Task<ActionResult<IEnumerable<ProdutoDTO>>> Get()

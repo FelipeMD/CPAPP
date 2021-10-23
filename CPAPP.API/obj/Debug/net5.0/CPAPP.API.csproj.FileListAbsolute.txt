@@ -176,7 +176,6 @@ C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\ref\CPAPP.API.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.pdb
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.genruntimeconfig.cache
-C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.csproj.CopyComplete
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\BouncyCastle.Crypto.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Google.Protobuf.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\K4os.Compression.LZ4.dll

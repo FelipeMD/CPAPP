@@ -9,6 +9,7 @@ namespace CPAPP.Application.Mappings
         public DomainToDTOMappingProfile()
         {
             CreateMap<Produto, ProdutoDTO>().ReverseMap();
+            CreateMap<Usuario, UsuarioDTO>().ReverseMap();
         }
     }
 }

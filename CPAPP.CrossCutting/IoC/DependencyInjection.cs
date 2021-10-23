@@ -29,6 +29,8 @@ namespace CPAPP.CrossCutting.IoC
             
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IProdutoService, ProdutoService>();
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
             
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 
