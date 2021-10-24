@@ -2,6 +2,7 @@
 using CPAPP.Application.Interfaces;
 using CPAPP.Application.Mappings;
 using CPAPP.Application.Services;
+using CPAPP.Domain.Entities;
 using CPAPP.Domain.Interfaces;
 using CPAPP.Infrastucture.Context;
 using CPAPP.Infrastucture.Repositories;
@@ -31,6 +32,8 @@ namespace CPAPP.CrossCutting.IoC
             services.AddScoped<IProdutoService, ProdutoService>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IPagamentoRepository, PagamentoRepository>();
+            services.AddScoped<IPagamentoService, PagamentoService>();
             
             services.AddAutoMapper(typeof(DomainToDTOMappingProfile));
 

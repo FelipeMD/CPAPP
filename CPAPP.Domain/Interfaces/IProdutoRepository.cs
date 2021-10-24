@@ -9,5 +9,7 @@ namespace CPAPP.Domain.Interfaces
         Task<IEnumerable<Produto>> GetProdutosAsync();
         
         Task<Produto> CreateAsync(Produto product);
+
+        Task<Produto> GetByName();
     }
 }

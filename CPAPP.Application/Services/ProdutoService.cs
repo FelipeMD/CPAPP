@@ -33,5 +33,11 @@ namespace CPAPP.Application.Services
             var productEntity = _mapper.Map<Produto>(produtoDto);
             await _productRepository.CreateAsync(productEntity);
         }
+
+        public async Task<Produto> GetByName()
+        {
+            var getName = await _productRepository.GetByName();
+            return getName;
+        }
     }
 }

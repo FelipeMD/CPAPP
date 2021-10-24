@@ -188,3 +188,4 @@ C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\MySql.Data.EntityFra
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Renci.SshNet.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\SshNet.Security.Cryptography.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.csproj.CopyComplete

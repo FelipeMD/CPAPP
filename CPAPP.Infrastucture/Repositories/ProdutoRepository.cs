@@ -26,5 +26,11 @@ namespace CPAPP.Infrastucture.Repositories
             await _productContext.SaveChangesAsync();
             return product;
         }
+
+        public async Task<Produto> GetByName()
+        {
+            return await _productContext.Produtos.Include(p => p.Nome)
+                .FirstOrDefaultAsync();
+        }
     }
 }
