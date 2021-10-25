@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 using CPAPP.CrossCutting.IoC;
 using CPAPP.Infrastucture.Context;
 using FluentMigrator.Runner;
+using MassTransit;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -48,6 +50,23 @@ namespace CPAPP.API
             {
                 options.Configuration = "localhost:6379";
             });
+
+            services.AddMassTransit(x =>
+            {
+                x.AddBus((provider => Bus.Factory.CreateUsingRabbitMq(config =>
+                {
+                    config.UseHealthCheck(provider);
+                    config.Host(new Uri("rabbitmq://localhost"), h =>
+                    {
+                        h.Username("guest");
+                        h.Password("guest");
+                    });
+                })));
+            });
+
+            services.AddMassTransitHostedService();
+            
+            services.AddControllers();
             
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "CPAPP.API", Version = "v1"}); });
         }

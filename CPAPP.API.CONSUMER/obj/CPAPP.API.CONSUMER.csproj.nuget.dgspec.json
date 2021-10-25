@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API.CONSUMER\\CPAPP.API.CONSUMER.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API.CONSUMER\\CPAPP.API.CONSUMER.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API.CONSUMER\\CPAPP.API.CONSUMER.csproj",
+        "projectName": "CPAPP.API.CONSUMER",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API.CONSUMER\\CPAPP.API.CONSUMER.csproj",
+        "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.API.CONSUMER\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.2.4-develop.283, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.4-develop.283, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.2.4-develop.283, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0-rc.2.21480.5, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0-rc.2.21480.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
+        "projectName": "CPAPP.Application",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\CPAPP.Application.csproj",
+        "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
+                "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj",
+        "projectName": "CPAPP.Domain",
+        "projectPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\CPAPP.Domain.csproj",
+        "packagesPath": "C:\\Users\\fmcab\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fmcab\\Desktop\\git\\CPAPP\\CPAPP.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\fmcab\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\fmcab\\.dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
