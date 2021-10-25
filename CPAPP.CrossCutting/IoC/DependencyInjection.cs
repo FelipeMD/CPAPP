@@ -18,16 +18,13 @@ namespace CPAPP.CrossCutting.IoC
         public static IServiceCollection AddInfrastructure(this IServiceCollection services,
             IConfiguration configuration)
         {
-            // services.AddDbContext<ApplicationDbContext>(options =>
-            //     options.UseSqlServer("DefaultConnection"));
+             // services.AddDbContext<ApplicationDbContext>(options =>
+             //                options.UseSqlServer("MSSQLServerConnectionString"));
             
             services.AddDbContext<ApplicationDbContext>(options =>
                options.UseMySql(configuration.GetConnectionString("DefaultConnection"),
                      new MySqlServerVersion(new Version(8, 0, 11))));
 
-            // var connection = configuration["DefaultConnection:ConnectionStrings"];
-            // services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(connection));
-            
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IProdutoService, ProdutoService>();
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();

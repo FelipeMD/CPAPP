@@ -208,3 +208,4 @@ C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\NewId.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\RabbitMQ.Client.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\bin\Debug\net5.0\System.Text.Json.dll
+C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.API\obj\Debug\net5.0\CPAPP.API.csproj.CopyComplete

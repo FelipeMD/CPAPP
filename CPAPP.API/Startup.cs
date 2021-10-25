@@ -39,7 +39,15 @@ namespace CPAPP.API
             services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false);
 
             string assemblyName = "CPAPP.Infrastucture.dll";
+            
+            /*Configuracao SQLSERVER*/
+            // services.AddFluentMigratorCore()
+            //     .ConfigureRunner(config => config.AddSqlServer()
+            //         .WithGlobalConnectionString("Persist Security Info = False; Integrated Security = true; Initial Catalog = compraapp; server = .\\SQLEXPRESS")
+            //         .ScanIn(Assembly.LoadFrom("./bin/Debug/net5.0/" + assemblyName )).For.All())
+            //     .AddLogging(config => config.AddFluentMigratorConsole());
 
+            /*Configuracao MySQL*/
             services.AddFluentMigratorCore()
                 .ConfigureRunner(config => config.AddMySql5()
                     .WithGlobalConnectionString("Server=localhost;Database=compraapp;Uid=root;Pwd=admin123;Allow User Variables=True;SslMode=none;")
