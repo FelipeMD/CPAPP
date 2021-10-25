@@ -6,6 +6,7 @@
 2. Após concluir a instalação localizar o caminho " RabbitMQ  Server\rabbitmq_server_version\sbin " utilizando o terminal do RabbitMQ e 
 executar o comando " rabbitmq-plugins enable rabbitmq_management " para habilitar o Dashboard.
 <p>Acesso ao dashboard: http://localhost:15672/#/ - Username: guest - Password: guest</p>
+3. Sempre executar API.CONSUMER e API juntas.
 
 ## Utilizando Cache com Redis - Necessário Docker
 
