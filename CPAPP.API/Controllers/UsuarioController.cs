@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CPAPP.API.Controllers
 {
     [ApiController]
-    [Route("api/v1/[Controller]")]
+    [Microsoft.AspNetCore.Components.Route("api/v1/[controller]")]
     public class UsuarioController : Controller
     {
         private readonly IUsuarioService _usuarioService;
@@ -16,7 +16,7 @@ namespace CPAPP.API.Controllers
             _usuarioService = usuarioService;
         }
 
-        [HttpPost("Post", Name = "Cria Usuario")]
+        [HttpPost("criaUsuario")]
         public async Task<ActionResult> Post([FromBody] UsuarioDTO usuarioDto)
         {
             if (!ModelState.IsValid)
@@ -26,8 +26,7 @@ namespace CPAPP.API.Controllers
 
             await _usuarioService.CreateAsync(usuarioDto);
 
-            return new CreatedAtRouteResult("GetProduto",
-                new { id = usuarioDto.Id }, usuarioDto);
+            return Ok();
         }
     }
 }

@@ -32,4 +32,3 @@ C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infr
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\ref\CPAPP.Infrastucture.dll
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.pdb
 C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.genruntimeconfig.cache
-C:\Users\fmcab\Desktop\git\CPAPP\CPAPP.Infrastucture\obj\Debug\net5.0\CPAPP.Infrastucture.csproj.CopyComplete

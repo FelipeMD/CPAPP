@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPAPP.API", "CPAPP.API\CPAP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPAPP.Infrastucture", "CPAPP.Infrastucture\CPAPP.Infrastucture.csproj", "{630A010C-9D46-4EF7-99A7-C15BDEEF0C40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CPAPP.API.CONSUMER", "CPAPP.API.CONSUMER\CPAPP.API.CONSUMER.csproj", "{75285923-B93E-4765-B88E-E25D307DC0BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{630A010C-9D46-4EF7-99A7-C15BDEEF0C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{630A010C-9D46-4EF7-99A7-C15BDEEF0C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{630A010C-9D46-4EF7-99A7-C15BDEEF0C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75285923-B93E-4765-B88E-E25D307DC0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75285923-B93E-4765-B88E-E25D307DC0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75285923-B93E-4765-B88E-E25D307DC0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75285923-B93E-4765-B88E-E25D307DC0BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
