@@ -7,16 +7,14 @@ namespace CPAPP.Infrastucture.Migrations
     {
         public override void Up()
         {
-            Create.Table("Usuario")
-                .WithColumn("IDUsuario").AsInt32().NotNullable().Identity().PrimaryKey()
+            Create.Table("Usuarios")
+                .WithColumn("ID").AsInt32().NotNullable().Identity().PrimaryKey()
                 .WithColumn("Nome").AsString().NotNullable()
                 .WithColumn("Cpf").AsString().NotNullable()
-                .WithColumn("DTNascimento").AsDateTime().NotNullable()
-                .WithColumn("IDEndereco").AsInt32().NotNullable();
-
-            // Create.ForeignKey("IDEndereco")
-            //     .FromTable("Endereco").ForeignColumn("IDEndereco")
-            //     .ToTable("Usuario").PrimaryColumn("IDEndereco");
+                .WithColumn("Nascimento").AsDateTime().NotNullable()
+                .WithColumn("Sexo").AsString().NotNullable()
+                .WithColumn("UF").AsString().NotNullable()
+                .WithColumn("CEP").AsString().NotNullable();
         }
 
         public override void Down()

@@ -13,14 +13,14 @@ namespace CPAPP.Infrastucture.Context
         {
         }
         
-        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Produto> Produtos { get; set; }
-        public DbSet<Endereco> Enderecos { get; set; }
+        // public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            base.OnModelCreating(builder);
-            builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-        }
+        // protected override void OnModelCreating(ModelBuilder builder)
+        // {
+        //     base.OnModelCreating(builder);
+        //     builder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
+        // }
     }
 }

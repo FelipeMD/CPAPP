@@ -9,8 +9,8 @@ namespace CPAPP.Infrastucture.Migrations
     {
         public override void Up()
         {
-            Create.Table("Produto")
-                .WithColumn("IdProduto").AsInt32().NotNullable().Identity().PrimaryKey()
+            Create.Table("Produtos")
+                .WithColumn("ID").AsInt32().NotNullable().Identity().PrimaryKey()
                 .WithColumn("Nome").AsString().NotNullable()
                 .WithColumn("CodigoProduto").AsInt64().NotNullable();
         }
