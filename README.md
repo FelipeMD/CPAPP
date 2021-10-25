@@ -3,7 +3,7 @@
 ## Utilizando Mensageria com RabbitMQ
 
 1. Usando o Chocolatey execute o comando " choco install rabbitmq "
-2. Após concluir a instalação localizar o caminho RabbitMQ " Server\rabbitmq_server_version\sbin " utilizando o terminal do RabbitMQ e 
+2. Após concluir a instalação localizar o caminho " RabbitMQ  Server\rabbitmq_server_version\sbin " utilizando o terminal do RabbitMQ e 
 executar o comando " rabbitmq-plugins enable rabbitmq_management " para habilitar o Dashboard.
 <p>Acesso ao dashboard: http://localhost:15672/#/ - Username: guest - Password: guest</p>
 
