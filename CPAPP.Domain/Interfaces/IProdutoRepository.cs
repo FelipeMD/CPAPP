@@ -6,7 +6,7 @@ namespace CPAPP.Domain.Interfaces
 {
     public interface IProdutoRepository
     {
-        Task<IEnumerable<Produto>> GetProdutosAsync();
+        Task<List<Produto>> GetProdutosAsync();
         
         Task<Produto> CreateAsync(Produto product);
 

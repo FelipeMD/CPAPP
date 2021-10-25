@@ -7,7 +7,7 @@ namespace CPAPP.Application.Interfaces
 {
     public interface IProdutoService
     {
-        Task<IEnumerable<ProdutoDTO>> GetProdutosAsync();
+        Task<List<ProdutoDTO>> GetProdutosAsync();
 
         Task CreateAsync(ProdutoDTO produtoDto);
 

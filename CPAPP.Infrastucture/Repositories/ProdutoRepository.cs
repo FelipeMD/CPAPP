@@ -15,7 +15,7 @@ namespace CPAPP.Infrastucture.Repositories
             _productContext = context;
         }
         
-        public async Task<IEnumerable<Produto>> GetProdutosAsync()
+        public async Task<List<Produto>> GetProdutosAsync()
         {
             return await _productContext.Produtos.ToListAsync();
         }

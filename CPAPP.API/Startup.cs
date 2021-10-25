@@ -43,6 +43,11 @@ namespace CPAPP.API
                     .WithGlobalConnectionString("Server=localhost;Database=compraapp;Uid=root;Pwd=admin123;Allow User Variables=True;SslMode=none;")
                     .ScanIn(Assembly.LoadFrom("./bin/Debug/net5.0/" + assemblyName )).For.All())
                 .AddLogging(config => config.AddFluentMigratorConsole());
+
+            services.AddStackExchangeRedisCache(options =>
+            {
+                options.Configuration = "localhost:6379";
+            });
             
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "CPAPP.API", Version = "v1"}); });
         }

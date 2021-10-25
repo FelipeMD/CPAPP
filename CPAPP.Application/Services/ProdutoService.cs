@@ -22,10 +22,10 @@ namespace CPAPP.Application.Services
             _mapper = mapper;
         }
         
-        public async Task<IEnumerable<ProdutoDTO>> GetProdutosAsync()
+        public async Task<List<ProdutoDTO>> GetProdutosAsync()
         {
             var productsEntity = await _productRepository.GetProdutosAsync();
-            return _mapper.Map<IEnumerable<ProdutoDTO>>(productsEntity);
+            return _mapper.Map<List<ProdutoDTO>>(productsEntity);
         }
 
         public async Task CreateAsync(ProdutoDTO produtoDto)
